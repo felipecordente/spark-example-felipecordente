@@ -1,6 +1,6 @@
 language: java
 deploy:
-  skip_cleanup: false
+  skip_cleanup: true
   provider: heroku
   app: spark-example-felipecordente
   api_key:
