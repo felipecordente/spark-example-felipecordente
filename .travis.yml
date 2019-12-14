@@ -1,5 +1,7 @@
 language: java
 deploy:
- skip_cleanup: true
- provider: heroku
- app: spark-example-felipecordente
+  skip_cleanup: true
+  provider: heroku
+  app: spark-example-felipecordente
+  api_key:
+    secure: MA/1oDu/Mg8FdpwTlzt/on+avaCvjwTBQhQ7FGmSDAbq+6CKH2UlvU8OvzLBJnDjBZcI0T9AQIXpB63ARKMljcUnGa12Kh8kyjmoN2LWOogKMyW/pkItUzxNP6z1IRbrodw59NSiRLipbnuoejnWGidic2iH45pxkctxavETgMazC0fWzGswM+W2oCiFJWgNVHCcCL8lcJCymo8xDg5vR42/k6WzA6MAut7MRnfUUaMlUP7/D/g/cI0dyVr0tO3x7xBX6UgVSKnhXkOKtpS8W7edrUOl40UXQHeHuv/djlHw1wyC/pyn7w08h1hJ1+runPweQQYevgLaxZWujZRAq0EPD9GJBUmhJd3vOLDvBfPupsXd0Xj8LuJJ9mEpjM01oyK8/G7p7HtyerJFbJh+c50kzAl6vigzmMjEwd6u6jHmK0yJ3q2VwNqT5whk9zwcUeTWpBhOIzeUbk6tf9zKwYEuF/DBcjwZX2UfO3KZIitkBe8iYEVeCvABZPy2HeRmjpVPsPO5zP/84BC18EZB43TgyUh5c7TXzZz19OtHcWafsPhDXHxKPhQVL9FKSLzqI6u4ymbqBYVqOX415K32vZ4xtij+t0OKnF1+f0e9LtlV9vrwNlMA+B+JA6aDHhcKJVg6Q+aVJ41PUgvmdzXogCCGY3d/lOFuCu/MbCm/fiU=
